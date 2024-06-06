@@ -1,0 +1,11 @@
+# .gitignore
+
+# Ignore the .env file
+.env
+
+# Ignore node_modules
+node_modules/
+
+# Add other files or directories you want to ignore.env
+logs/
+go.sh

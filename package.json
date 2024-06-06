@@ -1,0 +1,19 @@
+{
+  "name": "twitter-liker",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "node-cron": "^3.0.3",
+    "openai": "^4.47.1",
+    "puppeteer": "^22.8.2"
+  }
+}
