@@ -4,6 +4,8 @@ import axios from 'axios';
 import OpenAI from 'openai';
 import chalk from 'chalk'; // pretty colors
 import cron from 'node-cron'; // scheduler
+import dotenv from 'dotenv';
+dotenv.config();
 
 const SESSION_COOKIE = process.env.SESSION_COOKIE;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;

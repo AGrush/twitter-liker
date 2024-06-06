@@ -1,6 +1,8 @@
 import fs from 'fs';
 import OpenAI from 'openai';
 import chalk from 'chalk';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const PROCESSED_TWEETS_FILE = 'processed_tweets.json';
